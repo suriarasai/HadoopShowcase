@@ -1,87 +1,4 @@
-:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:
-         -----=====Earth's Dreamlands=====-----
-          (313)558-5024 - 9600 v.32 - Sysop: Gug
-                A Game Master Support BBS
-           RPG, Fiction & Homebrew Beer Text
-.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.
-
-This edition of Peter Pan has been created in the United States of 
-America from a comparison of various editions determined by age to 
-be in the Public Domain in the United States.  There are questions 
-concerning the copyright status in other countries, particulary in 
-members or former members of the British Commonwealth.  Anyone who 
-can contribute information as to the copyrights status of earliest 
-editions is encouraged to do so.  For the present, this edition of 
-Peter Pan is restricted to the United States, and is not to be for 
-use or included in any storage or retrieval system in any country, 
-other than the United States of America. 
- 
-To assist in the preservation of this edition in proper usage, our 
-edition is claimed as copyright (c)1991 due to our preparations of 
-several sources, our own research, and the inclusions of additions 
-and explanations to the original sources. 
-
-Disclaimer:
-All persons concerned disclaim any and all reponsbility
-that this etext is perfectly accurate.  No pretenses in
-any manner are made that this text should be thought of
-as an authoritative edition in any respect.
-
- 
-                                       
-                              PETER PAN
-                          [PETER AND WENDY] 
-                                 BY 
-                            J. M. BARRIE
-                       [James Matthew Barrie] 
-
-                    A Millennium Fulcrum Edition
-                     (c)1991 by Duncan Research 
-
- 
- 
-Contents 
---------- 
- 
-Chapter  1  PETER BREAKS THROUGH 
- 
-Chapter  2  THE SHADOW 
- 
-Chapter  3  COME AWAY, COME AWAY! 
- 
-Chapter  4  THE FLIGHT 
- 
-Chapter  5  THE ISLAND COME TRUE 
- 
-Chapter  6  THE LITTLE HOUSE 
- 
-Chapter  7  THE HOME UNDER THE GROUND 
- 
-Chapter  8  THE MERMAID'S LAGOON 
- 
-Chapter  9  THE NEVER BIRD 
- 
-Chapter  10 THE HAPPY HOME 
- 
-Chapter  11 WENDY'S STORY 
- 
-Chapter  12 THE CHILDREN ARE CARRIED OFF 
- 
-Chapter  13 DO YOU BELIEVE IN FARIES?
-Chapter  14 THE PIRATE SHIP 
- 
-Chapter  15 "HOOK OR ME THIS TIME" 
- 
-Chapter  16 THE RETURN HOME 
- 
-Chapter  17 WHEN WENDY GREW UP 
- 
- 
- 
- 
- 
-
-                              Chapter 1
+Chapter 1
 
                         PETER BREAKS THROUGH
 
@@ -6724,5 +6641,4 @@ mother in turn; and thus it will go on, so long as children are
 gay and innocent and heartless.
 
 
-                             THE END 
-
+                             THE END

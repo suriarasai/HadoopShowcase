@@ -2,6 +2,7 @@ package org.wordcompute.airline.hive;
 
 import java.io.IOException;
 
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
@@ -60,7 +61,7 @@ public class SelectClauseMRJob extends Configured implements Tool {
     }
 
     public static void main(String[] args) throws Exception {
-        //Configuration conf = new Configuration();
+        Configuration conf = new Configuration();
         ToolRunner.run(new SelectClauseMRJob(), args);
     }
 
