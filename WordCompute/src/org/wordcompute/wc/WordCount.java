@@ -1,6 +1,5 @@
 package org.wordcompute.wc;
 
-
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;
