@@ -1,0 +1,6 @@
+This is a text file. Used for randomly testing my word count program.
+
+
+This text file was created using eclipse IDE.
+
+And the text were just typed.

@@ -1,0 +1,5 @@
+This is another random file created for similar word count testing.
+
+These files are named after alphabets.
+
+This looks funny. But hope it works properly.
