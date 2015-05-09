@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-public class WordcountDriver extends Configured implements Tool {
+public class InvertedIndexDriver extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 		if (args.length != 2) {
 			System.out.println("Usage: [input] [output]");
@@ -22,7 +22,7 @@ public class WordcountDriver extends Configured implements Tool {
 
 		Job job = Job.getInstance(getConf());
 		job.setJobName("wordcount");
-		job.setJarByClass(WordcountDriver.class);
+		job.setJarByClass(InvertedIndexDriver.class);
 		
 		/* Field separator for reducer output*/
 		job.getConfiguration().set("mapreduce.output.textoutputformat.separator", " | ");
@@ -31,9 +31,9 @@ public class WordcountDriver extends Configured implements Tool {
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(Text.class);
 
-		job.setMapperClass(WordcountMapper.class);
-		job.setCombinerClass(WordcountReducer.class);
-		job.setReducerClass(WordcountReducer.class);
+		job.setMapperClass(InvertedIndexMapper.class);
+		job.setCombinerClass(InvertedIndexReducer.class);
+		job.setReducerClass(InvertedIndexReducer.class);
 
 		job.setInputFormatClass(TextInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);
@@ -59,8 +59,8 @@ public class WordcountDriver extends Configured implements Tool {
 	}
 
 	public static void main(String[] args) throws Exception {
-		WordcountDriver wordcountDriver = new WordcountDriver();
-		int res = ToolRunner.run(wordcountDriver, args);
+		InvertedIndexDriver invertedIndexDriver = new InvertedIndexDriver();
+		int res = ToolRunner.run(invertedIndexDriver, args);
 	    System.exit(res);
 	}
 }

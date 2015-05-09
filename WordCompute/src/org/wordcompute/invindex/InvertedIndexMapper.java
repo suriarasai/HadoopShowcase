@@ -10,7 +10,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
-public class WordcountMapper extends
+public class InvertedIndexMapper extends
 		Mapper<LongWritable, Text, Text, Text> {
 
 	private Text word = new Text();
