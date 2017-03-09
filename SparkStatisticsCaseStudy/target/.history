@@ -1,0 +1,4 @@
+sbt eclipse
+eclipse
+ls
+exit
