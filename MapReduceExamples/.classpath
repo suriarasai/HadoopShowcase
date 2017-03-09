@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-common.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-mapreduce-client-core.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/avro.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-auth.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-common.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/hadoop-annotations.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/spark/assembly/lib/spark-assembly.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/snappy-java.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/slf4j-log4j12.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/protobuf-java.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/log4j.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/guava.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-databind.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-core.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/jackson-annotations.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/commons-collections.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/commons-configuration.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/client/commons-lang.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
