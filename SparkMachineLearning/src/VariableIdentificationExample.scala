@@ -25,7 +25,7 @@ object VariableIdentificationExample {
       sqlContext.read.format("com.databricks.spark.csv")
         .option("header", "true")
         .option("inferSchema","true")
-        .load("hdfs://namenode:9000/Sales.csv")
+        .load("/home/training/git/HadoopShowcase/SparkMachineLearning/data/Sales.csv")
     val sales_data_test =
       sqlContext.read.format("com.databricks.spark.csv")
         .option("header", "true")
