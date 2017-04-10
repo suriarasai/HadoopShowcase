@@ -25,12 +25,12 @@ object VariableIdentificationExample {
       sqlContext.read.format("com.databricks.spark.csv")
         .option("header", "true")
         .option("inferSchema","true")
-        .load("/home/training/git/HadoopShowcase/SparkMachineLearning/data/Sales.csv")
+        .load("/home/training/git/HadoopShowcase/SparkMachineLearning/data/SalesTrain.csv")
     val sales_data_test =
       sqlContext.read.format("com.databricks.spark.csv")
         .option("header", "true")
         .option("inferSchema","true")
-        .load("/home/training/git/HadoopShowcase/SparkMachineLearning/data/Sales.csv")
+        .load("/home/training/git/HadoopShowcase/SparkMachineLearning/data/SalesTest.csv")
     val sales_data_union = sales_data_train.unionAll(sales_data_test)
     val sales_data = sales_data_union.withColumn("Item_Outlet_Sales",
       sales_data_union.col("Item_Outlet_Sales").cast(DoubleType))
