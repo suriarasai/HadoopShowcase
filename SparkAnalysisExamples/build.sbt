@@ -1,6 +1,6 @@
 import AssemblyKeys._
 
-name := "SparkApplicationExamples"
+name := "SparkAnalysisExamples"
 
 version := "1.0"
 
