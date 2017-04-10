@@ -26,7 +26,7 @@ object Bivariate_Analysis {
       sqlContext.read.format("com.databricks.spark.csv")
         .option("header", "true")
         .option("inferSchema", "true")
-        .load("/home/training/workspace/SparkDataAnalysis/data/train.csv")
+        .load("/home/training/git/HadoopShowcase/SparkAnalysisExamples/data/train.csv")
     //Correlation and Covariance between Age and Fare
     val correlated_value_AgeFare = titanic_data.stat.corr("Age",
       "Fare")

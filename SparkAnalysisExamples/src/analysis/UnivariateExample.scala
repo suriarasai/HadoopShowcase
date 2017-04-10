@@ -27,7 +27,7 @@ object Univariate_Analysis {
       sqlContext.read.format("com.databricks.spark.csv")
         .option("header", "true")
         .option("inferSchema", "true")
-        .load("/home/training/workspace/SparkDataAnalysis/data/train.csv")
+        .load("/home/training/git/HadoopShowcase/SparkAnalysisExamples/data/train.csv")
     titanic_data.show(10)
 
     /* Mean value of Fare charged to board Titanic Ship using
